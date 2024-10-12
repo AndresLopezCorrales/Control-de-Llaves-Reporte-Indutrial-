@@ -1,0 +1,29 @@
+[2024-05-12 13:59:47] INSERT INTO personal (IDPersonal, Nombre, ApellidoPaterno, ApellidoMaterno, Carrera, Tipo)
+                        VALUES (222202156, Alex Gabi, Jose, Jose, ISI, Alumno)
+[2024-05-12 14:01:51] INSERT INTO personal (IDPersonal, Nombre, ApellidoPaterno, ApellidoMaterno, Carrera, Tipo)
+                        VALUES (11, ejemplo, ejemplo, ejemplo, DII, Maestro)
+[2024-05-12 14:51:27] INSERT INTO pedidosactivos(IDSalon, IDPersonal, Llave, Objetos, FechaHoraCreacion)
+                            VALUES (1, 222202156, Llave, , 2024-05-12 14:51:27)
+[2024-05-12 14:56:14] INSERT INTO pedidosactivos(IDSalon, IDPersonal, Llave, Objetos, FechaHoraCreacion)
+                            VALUES (6, 32400, Llave, , 2024-05-12 14:56:14)
+[2024-05-12 14:56:15] INSERT INTO pedidosactivos(IDSalon, IDPersonal, Llave, Objetos, FechaHoraCreacion)
+                            VALUES (6, 32400, Llave, , 2024-05-12 14:56:15)
+[2024-05-12 14:56:33] INSERT INTO pedidosactivos(IDSalon, IDPersonal, Llave, Objetos, FechaHoraCreacion)
+                            VALUES (21, 222202156, Llave, , 2024-05-12 14:56:33)
+[2024-05-12 14:56:33] INSERT INTO pedidosactivos(IDSalon, IDPersonal, Llave, Objetos, FechaHoraCreacion)
+                            VALUES (21, 222202156, Llave, , 2024-05-12 14:56:33)
+[2024-05-12 15:17:23] INSERT INTO todospedidos(IDSalon, IDPersonal, Objetos, FechaHoraCreacion, FechaHoraFinal) 
+                            VALUES (1, 222202156, Llave,, 2024-05-12 14:51:27, 2024-05-12 15:17:23)
+[2024-05-12 15:17:23] DELETE FROM pedidosactivos WHERE IDPedidosActivo = 110
+[2024-05-12 15:17:24] INSERT INTO todospedidos(IDSalon, IDPersonal, Objetos, FechaHoraCreacion, FechaHoraFinal) 
+                            VALUES (6, 32400, Llave,, 2024-05-12 14:56:14, 2024-05-12 15:17:24)
+[2024-05-12 15:17:24] DELETE FROM pedidosactivos WHERE IDPedidosActivo = 111
+[2024-05-12 15:17:25] INSERT INTO todospedidos(IDSalon, IDPersonal, Objetos, FechaHoraCreacion, FechaHoraFinal) 
+                            VALUES (6, 32400, Llave,, 2024-05-12 14:56:15, 2024-05-12 15:17:25)
+[2024-05-12 15:17:25] DELETE FROM pedidosactivos WHERE IDPedidosActivo = 112
+[2024-05-12 15:17:27] INSERT INTO todospedidos(IDSalon, IDPersonal, Objetos, FechaHoraCreacion, FechaHoraFinal) 
+                            VALUES (21, 222202156, Llave,, 2024-05-12 14:56:33, 2024-05-12 15:17:27)
+[2024-05-12 15:17:27] DELETE FROM pedidosactivos WHERE IDPedidosActivo = 113
+[2024-05-12 15:17:29] INSERT INTO todospedidos(IDSalon, IDPersonal, Objetos, FechaHoraCreacion, FechaHoraFinal) 
+                            VALUES (21, 222202156, Llave,, 2024-05-12 14:56:33, 2024-05-12 15:17:29)
+[2024-05-12 15:17:29] DELETE FROM pedidosactivos WHERE IDPedidosActivo = 114

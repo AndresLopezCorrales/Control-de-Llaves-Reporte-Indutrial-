@@ -1,0 +1,142 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.img-unison{
+    width: 90px;
+    height: 90px;
+    margin-left: 1rem;
+}
+
+header{
+    position: fixed;
+    background-color: #daaa00;
+    min-height: 10vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.form{
+    margin-left: 2rem;
+    position: fixed;
+}
+
+.outer{
+    display: flex;
+    flex-direction: row;
+}
+
+.tabla-container{
+   margin-left: 30rem;
+   z-index: -1;
+}
+
+header a{
+    font-size: 30px;
+}
+
+
+header nav {
+    display: flex; /* Alinea los elementos del menú horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos del menú */
+}
+
+header a{
+    
+    padding-left: .7rem;
+    padding-right: .7rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-decoration: none;
+    color: white;
+    background-color: #10069f;
+    margin-left: 2rem;
+}
+
+header a:hover{
+    background-color: #1a0dce;
+}
+
+body{
+    margin-top: 21vh;   
+}
+
+
+.tabla-container{
+    position: relative;
+}
+
+/*-*/
+table{
+    text-align: center;
+    border-collapse: collapse;/**/
+    width: 90%;/**/
+}
+
+table * {
+padding-left: 2rem;
+padding-right: 1rem; 
+}
+
+th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: #daaa00;
+    color: #25315a;
+    top: 0;
+}
+tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 73%);
+}
+
+td{
+    padding: .5rem;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+
+
+footer{
+    width: 100%;
+    margin-top: 5rem;
+    min-height: 10vh;
+    background-color: #10069f;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+  
+}
+
+footer * {
+        margin-left: 2rem;
+        margin: 1rem;
+
+}
+
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+#claveInput{
+    width: 310px;
+}
+
+#nombreInput{
+    width: 293px;
+
+}

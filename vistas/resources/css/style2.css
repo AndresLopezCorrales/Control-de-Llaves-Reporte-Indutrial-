@@ -1,0 +1,275 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+header {
+    background-color: #daaa00;
+    /* min-height: 10vh; */
+    height: auto;
+}
+main{
+    margin-bottom: 3rem;
+}
+.up{
+    width: 6rem;
+    overflow: hidden;
+}
+.float-header{
+    top: 0rem;
+    right: 0rem;
+}
+.fixed{
+    position: fixed;
+}
+.top-0{
+    top: 0rem;
+}
+.w-100{
+    width: 100%;
+}
+.centrar-div{
+    display: flex;
+    align-items: center;/**/
+    text-align: center;
+}
+.centrado{
+    display: grid;
+    place-items: center;
+}
+.img-unison {
+    width: 90px;
+    height: 90px;
+    margin-left: 1rem;
+    display: block;
+}
+.text-header{
+    font-size: 30px;
+    float: left;
+}
+.mg-left{
+    margin-left: 50px;
+}
+.pdg-href{
+    padding-left: 64px;
+}
+.mg-top-main{
+    margin-top: 7rem;
+}
+.h-auto{
+    height: auto;
+}
+.w-200{
+    width: 20%;
+}
+
+
+
+button{
+    background-color: #0066cc;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100px;
+}
+form span{
+    color: red;
+}
+.border-div{
+    margin: 2px 2px 2px 2px;
+    border: 1px solid skyblue;
+}
+/* input{
+    border-radius: 10px;
+    height: 25px;
+    border: 1px solid #ddd;
+} */
+#filtrarinfo label{
+    /* display: flexbox; */
+    color: #25315a;
+    margin-bottom: 20px;
+}
+#filtrarinfo input[type="checkbox"]{
+    margin-left: 10px;
+    height: auto;
+    /* margin-bottom: 15px; */
+}
+#filtrarinfo input[type="text"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 100%;
+    height: 30px;
+}
+#filtrarinfo input[type="date"], #filtrarinfo select{
+    font-size: 18px;
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 25px;
+    /* padding: 8px; */
+    /* margin-bottom: 12px; */
+    border: 1px solid #ddd;
+}
+#filtrarinfo{
+    width: 100%;
+    height: auto;
+    border: 2px solid gray;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.container-pdg{
+    padding: 20px 20px 20px 20px;
+}
+
+.centrar-filtro{
+    display: flex;
+    justify-content: center;
+}
+.columns{
+    display: flex;
+    grid-auto-flow: column;   
+}
+.container-filtros{
+    width: 80%;
+    height: auto;
+}
+
+#resultados{
+    margin-top: 3rem;
+    width: 80%;
+    border: 2px solid gray;
+}
+#horarios{
+    margin-top: 3rem;
+    width: 80%;
+    border: 2px solid gray;
+}
+
+
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+
+    width: 20px;
+    height: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #fff; 
+    cursor: pointer; 
+}
+
+input[type="checkbox"]:checked {
+    background-color: #66bb6a; 
+    border-color: #66bb6a;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    /* margin: 2px; */
+    background-color: #fff;
+    border-radius: 3px; 
+    transition: background-color 0.3s ease;
+}
+
+input[type="checkbox"]:checked::before {
+    background-color: #66bb6a; 
+}
+
+
+.edificio-header{
+    background-color: #425eb8;
+    color: #ddd;
+}
+#tabla_data{
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+#tabla_data th, #tabla_data td{
+    border: 2px solid black;
+    padding: 2px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#tabla_data tr{
+    width: 100%;
+}
+
+#tabla_data th{
+    background-color: #daaa00;
+    color: #25315a;
+}
+#tabla_data tr:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 73%);
+}
+#tabla_data td p{
+    font-size: 18px;
+    /* width: 80%; */
+    height: auto;
+    padding: 8px 8px 8px 8px;
+
+}
+
+#tabla_data td:nth-child(2) p{
+    max-width: 400px;
+    display: block;
+    word-wrap: break-word;
+}
+#tabla_data td:nth-child(1){
+
+    min-width: 40%;
+}
+#tabla_data td:nth-child(2){
+    display: grid;
+    place-items: center;
+    min-width: 60%;
+}
+.parrafo{
+    width: 100%;
+    height: auto;
+    margin: 4px 4px 4px 4px;
+}
+/*////////////////////////////////*/
+#horario_data{
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+#horario_data th, #horario_data td{
+    border: 2px solid black;
+    padding: 2px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#horario_data tr{
+    width: 100%;
+}
+#horario_data th{
+    background-color: #daaa00;
+    color: #25315a;
+}
+#horario_data tr:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 73%);
+}
+#horario_data td p{
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+}
+.color-column{
+    background-color: aquamarine;
+}
